@@ -66,4 +66,197 @@ g {
     margin-bottom: 10px;
     letter-spacing: .2rem;
     word-spacing: .4rem;
+    text-align: center;
 }
+
+/* (min-width:500) and */
+
+@media  (max-width: 1200px) {
+    #canvas {
+        min-height: 600px;
+        min-width: 1100px;
+    }
+
+    #title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #tooltip {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    #description {
+        font-size: 18px;
+    }
+    #legend {
+        font-size: 12px;
+        text-align: center;
+        width: 300px;
+        height: 100px;
+    }
+    #legend rect  {
+        width: 30px;
+        height: 30px;
+        
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #canvas {
+        min-height: 500px;
+        min-width: 900px;
+        margin: 5px;
+    }
+
+    #title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #tooltip {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    #description {
+        font-size: 18px;
+    }
+    #legend {
+        font-size: 12px;
+        text-align: center;
+        width: 300px;
+        height: 100px;
+    }
+    #legend rect  {
+        width: 30px;
+        height: 30px;
+        
+    }
+}
+
+@media  (max-width: 900px) {
+    #canvas {
+        min-height: 300px;
+        min-width: 600px;
+        margin: 5px;
+    }
+
+    #title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #tooltip {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    #description {
+        font-size: 18px;
+    }
+    #legend {
+        font-size: 12px;
+        text-align: center;
+        width: 200px;
+        height: 100px;
+    }
+    #legend rect  {
+        width: 20px;
+        height: 20px;
+        
+    }
+}
+
+@media  (max-width: 600px) {
+    #canvas {
+        min-height: 300px;
+        min-width: 400px;
+        margin: 5px;
+    }
+
+    #title {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #tooltip {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    #description {
+        font-size: 14px;
+    }
+    #legend {
+        font-size: 12px;
+        text-align: center;
+        width: 200px;
+        height: 100px;
+    }
+    #legend rect  {
+        width: 20px;
+        height: 20px;
+        
+    }
+}
+
+@media (max-width: 375px) {
+    #canvas {
+        min-height: 300px;
+        min-width: 375px;
+    }
+
+    #title {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #tooltip {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    #description {
+        font-size: 12px;
+    }
+    #legend {
+        font-size: 12px;
+        text-align: center;
+        width: 200px;
+        height: 100px;
+    }
+    #legend rect  {
+        width: 20px;
+        height: 20px;
+        
+    }
+}
+
+@media (max-width: 320px) {
+    #canvas {
+        min-height: 200px;
+        min-width: 320px;
+    }
+
+    #title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #tooltip {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    #description {
+        font-size: 14px;
+    }
+    #legend {
+        font-size: 12px;
+        text-align: center;
+        width: 180px;
+        height: 100px;
+    }
+    #legend rect  {
+        width: 20px;
+        height: 20px;
+        
+    }
+}
+

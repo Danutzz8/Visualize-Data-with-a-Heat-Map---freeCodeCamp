@@ -12,14 +12,15 @@ let maxYear
 let numberOfYears
 
 let width = 1200
-let height = 600
+let height = 800
 let padding = 60
 
 let tooltip = d3.select('#tooltip')
 
 let canvas = d3.select('#canvas')
-canvas.attr('width', width)
-canvas.attr('height', height)
+// canvas.attr('width', width)
+// canvas.attr('height', height)
+canvas.attr("viewBox", `0 0 ${width} ${height}`) // to be responsive
 
 let generateScales = () => {   
     
